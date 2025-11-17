@@ -6,7 +6,7 @@ Permite a los estudiantes listar sus tareas pendientes, automatizar la subida de
 ## Requisitos
 
 - Python 3.10 o superior  
-- Bash (Git Bash o WSL en Windows)  
+- Bash (Git Bash o WSL en Windows, para el autocompletado)  
 - Módulos de Python: `requests`, `beautifulsoup4`, `pycryptodome`, `pywin32`  
 - Google Chrome con sesión activa en Experiencia21  
 - Ejecutar con privilegios de administrador para permitir el uso de Shadow Copy  
