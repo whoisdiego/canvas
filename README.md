@@ -3,17 +3,29 @@ Canvas es un conjunto de scripts en Python y Bash diseñado para facilitar la ge
 
 ## Requisitos
 
-  Python 3.10 o superior
+  - Python 3.10 o superior
   
-  Bash (Git Bash o WSL en Windows)
+  - Bash (Git Bash o WSL en Windows)
   
-  Módulos Python: requests, beautifulsoup4, pycryptodome, pywin32
+  - Módulos Python: requests, beautifulsoup4, pycryptodome, pywin32
   
-  Google Chrome con sesión activa en Experiencia21
+  - Google Chrome con sesión activa en Experiencia21
 
-  Ejecutar con privilegios de administrador para permitir el uso de Shadow Copy
+  - Ejecutar con privilegios de administrador para permitir el uso de Shadow Copy
+
+  - WINDOWS
   
-## Uso
-  Clona el repositorio y navega a la carpeta del proyecto.
-                        
-    git clone 
+## Istalacion
+  Clona el repositorio y navega a la carpeta del proyecto. 
+  
+    git clone https://github.com/whoisdiego/canvas.git
+  Agrega el proyecto al PATH para poder ejecutar canvas desde cualquier ubicación y en cualquier sesion
+
+  - Instalar autocompletado en Bash. Esto habilita TAB para sugerencias en el comando canvas.
+  
+        echo "source $(pwd)/devtool_completion.sh" >> ~/.bashrc
+        source ~/.bashrc
+
+
+  
+
