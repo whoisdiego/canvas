@@ -20,7 +20,7 @@ Agrega el proyecto al PATH para poder ejecutar canvas desde cualquier ubicación
 
   - Instalar autocompletado en Bash. Esto habilita TAB para sugerencias en el comando canvas.
   
-        echo "source $(pwd)/devtool_completion.sh" >> ~/.bashrc
+        echo "source $(pwd)/canvas.sh" >> ~/.bashrc
         source ~/.bashrc
 
 
