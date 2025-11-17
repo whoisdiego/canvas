@@ -11,7 +11,7 @@ function canvas {
   if [ $# -eq 1 ]; then
     case "$1" in 
       help)
-        echo -e "post     manda la tarea. Uso--canvas post 'nombre_elegido' 'tarea2' 'nombre_del_archivo.pdf'\nshow     muestra las tareas por hacer. Uso--canvas show\nhelp     muestra los comandos"
+        echo -e "post     manda la tarea. Uso--canvas post 'nombre_elegido' 'tarea2' 'nombre_del_archivo.pdf' 'nombre_del_archivo2.cpp'\nshow     muestra las tareas por hacer. Uso--canvas show\nhelp     muestra los comandos"
         ;;
       show)
         printf "%s\n" "${TAREAS[@]}"
